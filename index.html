@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Угадай число</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--tg-theme-bg-color, #f0f8ff);
+      color: var(--tg-theme-text-color, #000);
+    }
+    .tg-header {
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+    #closeBtn {
+      position: absolute;
+      left: 10px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: var(--tg-theme-text-color);
+    }
+  </style>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="tg-header">
+    <button id="closeBtn">×</button>
+    <h1>Угадай число</h1>
+  </div>
+  <div class="container">
+    <input type="number" id="userGuess" placeholder="Ваш вариант" />
+    <button id="checkBtn">Проверить</button>
+    <p id="result"></p>
+  </div>
+  <script src="telegram.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Угадай число</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Угадай число от 1 до 100</h1>
+    <p id="instruction">Введите число и нажмите "Проверить"</p>
+    <input type="number" id="userGuess" placeholder="Ваш вариант" />
+    <button id="checkBtn">Проверить</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="telegram.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
+>>>>>>> 3b81423d9ff5b7da2890724e63b5fa9ec8f73019
